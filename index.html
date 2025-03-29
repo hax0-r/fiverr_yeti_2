@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YETI</title>
+    <link rel="shortcut icon" href="./Docs/Assets/logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://unpkg.com/lenis@1.1.13/dist/lenis.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./Docs/Styles/global.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+
+    <div class="bg-[#101010]">
+
+        <div class="h-20 bg-[#212121] flex items-center justify-center">
+            <div class="max-w-7xl px-5 py-3 w-full mx-auto">
+                <a href="./index.html">
+                    <img src="./Docs/Assets/logo.jpg" class="h-12 rounded-lg" alt="logo">
+                </a>
+            </div>
+        </div>
+
+        <div class="">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="./Docs/Assets/slide1.png" alt="img">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./Docs/Assets/slide2.png" alt="img">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="max-w-7xl w-full mx-auto p-5 md:mt-10 mt-3">
+
+            <h2 class="text-center text-3xl yellow">Yesterday's top 3 wheelers</h2>
+
+            <div class="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-5 md:mt-10 mt-5">
+
+                <div
+                    class="w-full rounded-full border-2 border-[#fbd827] py-3 px-5 flex items-center justify-between bg-[#212121]">
+                    <h3 class="yellow text-xl">1. Lacey Mills</h3>
+                    <h3 class="yellow text-xl">$ 81.33</h3>
+                </div>
+                <div
+                    class="w-full rounded-full border-2 border-[#fbd827] py-3 px-5 flex items-center justify-between bg-[#212121]">
+                    <h3 class="yellow text-xl">2. Jordan Brooks</h3>
+                    <h3 class="yellow text-xl">$ 81.06</h3>
+                </div>
+                <div
+                    class="w-full rounded-full border-2 border-[#fbd827] py-3 px-5 flex items-center justify-between bg-[#212121]">
+                    <h3 class="yellow text-xl">3. Mr. Robert Black</h3>
+                    <h3 class="yellow text-xl">$ 50.35</h3>
+                </div>
+
+            </div>
+
+            <h2 class="text-center text-4xl md:mt-14 mt-8 yellow">Game Links</h2>
+
+            <div class="flex items-center justify-center gap-2.5 mt-6">
+                <h3 class=" cursor-pointer text-3xl px-3 pb-2.5 pt-1.5 border-y-2 border-white text-white" id="playerBtn">Player Link
+                </h3>
+                <div class="h-20 w-0.5 bg-[#c49e20]"></div>
+                <div class="h-20 w-0.5 bg-[#c49e20]"></div>
+                <h3 class="yellow cursor-pointer text-3xl px-3 pb-2.5 pt-1.5 border-y-2 border-[#fbd827]" id="agentBtn">Agent Link
+                </h3>
+            </div>
+            
+            <div class="grid max-w-5xl mx-auto md:grid-cols-4 grid-cols-2 md:gap-20 md:gap-y-10 gap-y-7 gap-5 md:mt-10 mt-5 playerLink">
+                <!-- player cards -->
+            </div>
+
+            <div class="grid hidden max-w-5xl mx-auto md:grid-cols-4 grid-cols-2 md:gap-20 md:gap-y-10 gap-y-7 gap-5 md:mt-10 mt-5 agentLink">
+                <!-- agent cards -->
+            </div>
+            
+            <h3 class="yellow text-3xl text-center mt-10">We Accept</h3>
+            <div class="flex items-center justify-center gap-2 mt-4">
+                <img src="./Docs/Assets/$.png" class="h-14" alt="">
+                <img src="./Docs/Assets/B.png" class="h-14" alt="">
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+<script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="./Docs/Javascripts/global.js"></script>
+
+</html>
