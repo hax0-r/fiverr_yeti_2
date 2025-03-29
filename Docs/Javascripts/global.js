@@ -16,8 +16,8 @@ const players = [
     { name: "Juwa", image: "./Docs/Assets/3.jpg", link: "https://dl.juwa777.com/" },
     { name: "GameVault", image: "./Docs/Assets/4.jpg", link: "https://download.gamevault999.com/" },
     { name: "CasinoRoyale", image: "./Docs/Assets/5.jpg", link: "https://m.casinoroyale07.com/" },
-    { name: "VegasSwee", image: "./Docs/Assets/6.jpg", link: "https://m.lasvegassweeps.com/" },
-    { name: "MIlky1Nay", image: "./Docs/Assets/7.jpg", link: "https://milkywayapp.xyz/" },
+    { name: "VegasSweeps", image: "./Docs/Assets/6.jpg", link: "https://m.lasvegassweeps.com/" },
+    { name: "MilkyWay", image: "./Docs/Assets/7.jpg", link: "https://milkywayapp.xyz/" },
     { name: "Ultra Panda", image: "./Docs/Assets/8.jpg", link: "https://www.ultrapanda.mobi/" },
     { name: "Cash Frenzy", image: "./Docs/Assets/9.jpg", link: "https://www.cashfrenzy777.com/" },
     { name: "Pandamaster", image: "./Docs/Assets/10.jpg", link: "https://www.google.com/" },
@@ -45,8 +45,8 @@ players.forEach(player => {
 
     playerCard.innerHTML = `
         <a href="${player.link}">
-        <img src="${player.image}" class="rounded-lg md:h-40 h-28 object-cover" alt="${player.name}">
-        <div class="flex mt-5 items-center justify-center">
+        <img src="${player.image}" class="rounded-lg mx-auto md:h-40 h-28 object-cover" alt="${player.name}">
+        <div class="flex mt-5 items-center text-center justify-center">
             <h3 class="yellow cursor-pointer text-2xl px-3 pb-2.5 pt-1.5 border-y-2 border-[#fbd827]">
                 ${player.name}
             </h3>
@@ -66,8 +66,8 @@ const agents = [
     { name: "Juwa", image: "./Docs/Assets/3.jpg", link: "https://ht.juwa777.com/login" },
     { name: "GameVault", image: "./Docs/Assets/4.jpg", link: "https://agent.gamevault999.com/login" },
     { name: "CasinoRoyale", image: "./Docs/Assets/5.jpg", link: "https://agent.casinoroyale07.com/login" },
-    { name: "VegasSwee", image: "./Docs/Assets/6.jpg", link: "https://agent.lasvegassweeps.com/login" },
-    { name: "MIlky1Nay", image: "./Docs/Assets/7.jpg", link: "https://milkywayapp.xyz:8781/default.aspx?638788524292114313" },
+    { name: "VegasSweeps", image: "./Docs/Assets/6.jpg", link: "https://agent.lasvegassweeps.com/login" },
+    { name: "MilkyWay", image: "./Docs/Assets/7.jpg", link: "https://milkywayapp.xyz:8781/default.aspx?638788524292114313" },
     { name: "Ultra Panda", image: "./Docs/Assets/8.jpg", link: "https://ht.ultrapanda.mobi/#/manage-user/account" },
     { name: "Cash Frenzy", image: "./Docs/Assets/9.jpg", link: "https://agentserver.cashfrenzy777.com:8003/admin" },
     { name: "Pandamaster", image: "./Docs/Assets/10.jpg", link: "https://www.google.com/" },
@@ -95,9 +95,9 @@ agents.forEach(agent => {
 
     agentCard.innerHTML = `
         <a href="${agent.link}">
-        <img src="${agent.image}" class="rounded-lg md:h-40 h-28 object-cover" alt="${agent.name}">
-        <div class="flex mt-5 items-center justify-center">
-            <h3 class="yellow cursor-pointer text-2xl px-3 pb-2.5 pt-1.5 border-y-2 border-[#fbd827]">
+        <img src="${agent.image}" class="rounded-lg mx-auto md:h-40 h-28 object-cover" alt="${agent.name}">
+        <div class="flex mt-5 items-center justify-center text-center">
+            <h3 class="yellow cursor-pointer text-2xl  px-3 pb-2.5 pt-1.5 border-y-2 border-[#fbd827]">
                 ${agent.name}
             </h3>
         </div>
