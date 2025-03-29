@@ -62,7 +62,7 @@ players.forEach(player => {
 const agents = [
     { name: "Yeti 777", image: "./Docs/Assets/0.jpg", link: "https://yeti777.vip" },
     { name: "Firekirin", image: "./Docs/Assets/1.jpg", link: "" },
-    { name: "Orionstar", image: "./Docs/Assets/2.jpg", link: "https://orionstars.vip:8781/default.aspx?638788524264582586" },
+    { name: "Orionstar", image: "./Docs/Assets/2.jpg", link: "https://orionstars.vip:8781/default.aspx?638788639653281932" },
     { name: "Juwa", image: "./Docs/Assets/3.jpg", link: "https://ht.juwa777.com/login" },
     { name: "GameVault", image: "./Docs/Assets/4.jpg", link: "https://agent.gamevault999.com/login" },
     { name: "CasinoRoyale", image: "./Docs/Assets/5.jpg", link: "https://agent.casinoroyale07.com/login" },
@@ -77,7 +77,7 @@ const agents = [
     { name: "VegasX", image: "./Docs/Assets/14.png", link: "https://cashier.vegas-x.org/login" },
     { name: "Acebook", image: "./Docs/Assets/15.jpg", link: "https://djwae.playacebook.mobi/#/login?redirect=%2Fmanage-user%2Faccount" },
     { name: "Blue Dragon", image: "./Docs/Assets/16.jpg", link: "https://agent.bluedragon777.com/Login.aspx" },
-    { name: "Para", image: "./Docs/Assets/17.jpg", link: "https://agent.paracasino.net/#/pages/login/login" },
+    { name: "Para", image: "./Docs/Assets/17.jpg", link: "https://agent.paracasino.net/#/" },
     { name: "River Monster", image: "./Docs/Assets/18.png", link: "" },
     { name: "Moolah", image: "./Docs/Assets/19.jpg", link: "https://moolah.vip:8781/default.aspx?638294807507914993" },
     { name: "Sirus", image: "./Docs/Assets/20.jpg", link: "https://agent.gamesirius999.com/login" },
