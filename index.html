@@ -17,6 +17,75 @@
 
 <body>
 
+    <div class="fixed bottom-5 right-5 z-10">
+        <div
+            class="bg-[#3b5998] w-14 h-14 rounded-full flex items-center justify-center shadow-lg hover:shadow-xl transition-all duration-300 ease-in-out">
+            <a href="https://www.facebook.com/share/152ExK5h3y/" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="3em" height="3em" fill="#fff" viewBox="0 0 256 256"
+                    focusable="false" class="chakra-icon css-1u0cjio">
+                    <path
+                        d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm8,191.63V152h24a8,8,0,0,0,0-16H136V112a16,16,0,0,1,16-16h16a8,8,0,0,0,0-16H152a32,32,0,0,0-32,32v24H96a8,8,0,0,0,0,16h24v63.63a88,88,0,1,1,16,0Z">
+                    </path>
+                </svg>
+            </a>
+        </div>
+        <div id="ruleBtn"
+            class="bg-[#fff] cursor-pointer mt-3 w-14 h-14 rounded-full flex items-center justify-center shadow-lg hover:shadow-xl transition-all duration-300 ease-in-out">
+            <svg xmlns="http://www.w3.org/2000/svg" width="3em" height="3em" fill="currentColor" viewBox="0 0 256 256"
+                focusable="false" class="chakra-icon css-1wcxsf3">
+                <path
+                    d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,192a88,88,0,1,1,88-88A88.1,88.1,0,0,1,128,216Zm16-40a8,8,0,0,1-8,8,16,16,0,0,1-16-16V128a8,8,0,0,1,0-16,16,16,0,0,1,16,16v40A8,8,0,0,1,144,176ZM112,84a12,12,0,1,1,12,12A12,12,0,0,1,112,84Z">
+                </path>
+            </svg>
+        </div>
+    </div>
+
+    <div id="rules" class=" z-50 fixed inset-0 flex items-center fadeIn justify-center p-4 hidden">
+        <div id="rulesOverlay" class="w-full h-screen bg-[#000000ed] fadeIn fixed top-0 left-0 hidden"></div>
+        <div class=" z-20 relative text-white max-h-[85vh] overflow-auto p-5 rounded-sm relative font-serif border max-w-4xl w-full">
+            <div class="flex items-end justify-end">
+                <i id="closeRuleBtn" class="fa-solid fa-x"></i>
+            </div>
+            <h3 class="text-center mt-7 text-2xl font-serif">Account Creation and Eligibility for Free Spin Wheel</h3>
+            <p class="mt-5 font-serif text-sm">To participate in the Free Spin Wheel, new players must message our official Facebook page
+                to create an account.
+            </p>
+            <h2 class="text-center mt-14 text-2xl font-serif">Free Spin Wheel Access</h2>
+            <ul class="pl-5 list-disc space-y-2 mt-5">
+                <li class="font-serif text-sm"> New Players: New players will have access to the Free Spin Wheel for a 24-hour period from the time
+                    of account creation.</li>
+                <li class="font-serif text-sm"> To be eligible for Free Spin Wheel access beyond the first day, a player must make a deposit.</li>
+                <li class="font-serif text-sm"> Deposit Players: Players who make a deposit will have access to the Free Spin Wheel for 3 days from
+                    the time of their deposit.</li>
+                <li class="font-serif text-sm"> Spins will reset every 2 hours, allowing players to spin the wheel multiple times per day within
+                    their eligibility window.</li>
+            </ul>
+            <h2 class="text-center mt-14 text-2xl font-serif">Winning and Redemption</h2>
+            <ul class="pl-5 list-disc space-y-2 mt-5">
+                <li class="font-serif text-sm"> Winnings from the Free Spin Wheel are credited directly to your balance and can be redeemed at any time within the time limit, which is 24hrs for non depositing players and 72hrs (3days) for depositing players.
+                </li>
+                <li class="font-serif text-sm"> Your winnings will be provided as Freeplay, which can be used on any platform offered through our Facebook page.
+                </li>
+            </ul>
+            <h2 class="text-center mt-14 text-2xl font-serif">Abuse Prevention and Fair Play
+            </h2>
+            <ul class="pl-5 list-disc space-y-2 mt-5">
+                <li class="font-serif text-sm"> Abuse Prevention and Fair Play
+                    Any abuse or attempt to manipulate the Free Spin Wheel or redemption system will result in the suspension or termination of the player's account.</li>
+            </ul>
+            <h2 class="text-center mt-14 text-2xl font-serif">Changes to Terms and Responsible Gambling</h2>
+            <ul class="pl-5 list-disc space-y-2 mt-5">
+                <li class="font-serif text-sm"> We reserve the right to modify, suspend, or cancel the Free Spin Wheel promotion or any associated terms at any time without prior notice. All changes will be communicated to players via Facebook Page. </li>
+                <li class="font-serif text-sm"> We promote responsible gambling practices. If you or someone you know is experiencing gambling-related issues, please contact customer support for assistance.                </li>
+            </ul>
+            <h2 class="text-center mt-14 text-2xl font-serif">Minimum deposit for the wheel activation</h2>
+            <ul class="pl-5 list-disc space-y-2 mt-5">
+                <li class="font-serif text-sm"> Players need to deposit a minimum of $10 to activate the wheel and have access to the points accumulated on the wheels. Once the deposit is made the players will have access to it for 3 days.                </li>
+            </ul>
+           
+        </div>
+    </div>
+
     <div class="bg-[#101010]">
 
         <div class="h-20 bg-[#212121] flex items-center justify-center">
@@ -69,22 +138,26 @@
             <h2 class="text-center text-4xl md:mt-14 mt-8 yellow">Game Links</h2>
 
             <div class="flex items-center justify-center gap-2.5 mt-6">
-                <h3 class=" cursor-pointer text-3xl px-3 pb-2.5 pt-1.5 border-y-2 border-white text-white" id="playerBtn">Player Link
+                <h3 class="  yellow cursor-pointer text-3xl px-3 pb-2.5 pt-1.5 border-y-2 border-[#fbd827]"
+                    id="playerBtn">Player Link
                 </h3>
                 <div class="h-20 w-0.5 bg-[#c49e20]"></div>
                 <div class="h-20 w-0.5 bg-[#c49e20]"></div>
-                <h3 class="yellow cursor-pointer text-3xl px-3 pb-2.5 pt-1.5 border-y-2 border-[#fbd827]" id="agentBtn">Agent Link
+                <h3 class="cursor-pointer text-3xl px-3 pb-2.5 pt-1.5 border-y-2 border-white text-white" id="agentBtn">
+                    Agent Link
                 </h3>
             </div>
-            
-            <div class="grid max-w-5xl mx-auto md:grid-cols-4 grid-cols-2 md:gap-20 md:gap-y-10 gap-y-7 gap-5 md:mt-10 mt-5 playerLink">
+
+            <div
+                class="grid max-w-5xl mx-auto md:grid-cols-4 grid-cols-2 md:gap-20 md:gap-y-10 gap-y-7 gap-5 md:mt-10 mt-5 playerLink">
                 <!-- player cards -->
             </div>
 
-            <div class="grid hidden max-w-5xl mx-auto md:grid-cols-4 grid-cols-2 md:gap-20 md:gap-y-10 gap-y-7 gap-5 md:mt-10 mt-5 agentLink">
+            <div
+                class="grid hidden max-w-5xl mx-auto md:grid-cols-4 grid-cols-2 md:gap-20 md:gap-y-10 gap-y-7 gap-5 md:mt-10 mt-5 agentLink">
                 <!-- agent cards -->
             </div>
-            
+
             <h3 class="yellow text-3xl text-center mt-10">We Accept</h3>
             <div class="flex items-center justify-center gap-2 mt-4">
                 <img src="./Docs/Assets/$.png" class="h-14" alt="">
