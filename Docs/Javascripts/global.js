@@ -61,7 +61,7 @@ players.forEach(player => {
 
 const agents = [
     { name: "Yeti 777", image: "./Docs/Assets/0.jpg", link: "https://yeti777.vip" },
-    { name: "Firekirin", image: "./Docs/Assets/1.jpg", link: "" },
+    { name: "Firekirin", image: "./Docs/Assets/1.jpg", link: "https://orionstars.vip:8781/default.aspx?638788787368175194" },
     { name: "Orionstar", image: "./Docs/Assets/2.jpg", link: "https://orionstars.vip:8781/default.aspx?638788639653281932" },
     { name: "Juwa", image: "./Docs/Assets/3.jpg", link: "https://ht.juwa777.com/login" },
     { name: "GameVault", image: "./Docs/Assets/4.jpg", link: "https://agent.gamevault999.com/login" },
