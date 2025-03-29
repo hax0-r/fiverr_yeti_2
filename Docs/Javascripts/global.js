@@ -94,7 +94,7 @@ agents.forEach(agent => {
     agentCard.classList.add("w-full", "hover:bg-[#212121]", "p-3", "rounded-lg", "cursor-pointer", "transition-all", "duration-500", "hover:-translate-y-1.5", "fadeIn");
 
     agentCard.innerHTML = `
-        <a href="https://yeti777.vip">
+        <a href="${agent.link}">
         <img src="${agent.image}" class="rounded-lg md:h-40 h-28 object-cover" alt="${agent.name}">
         <div class="flex mt-5 items-center justify-center">
             <h3 class="yellow cursor-pointer text-2xl px-3 pb-2.5 pt-1.5 border-y-2 border-[#fbd827]">
